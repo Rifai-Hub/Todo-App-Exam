@@ -1,0 +1,261 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(img/background\ todo\ hijau.jpg); 
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #347928;
+    color: white;
+    padding: 15px;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    color: #e9ecef;
+}
+
+/* Buttons */
+.btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none; 
+    margin-bottom: 5px;
+}
+
+.btn-primary {
+    background-color: #347928;
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 25px; 
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    width: 95%;
+    transition: all 0.3s ease; 
+    
+    
+}
+
+.btn-primary:active {
+    transform: scale(0.95); 
+    color: white; 
+    background-color: #007bff; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.btn-primary:hover {
+    background-color: #285f1e;
+    transform: scale(1.05); 
+    background-color: #0056b3; 
+     
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: black;
+    text-decoration: none; 
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #bd2130;
+}
+
+/* Table */
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #dee2e6;
+}
+
+.table th {
+    background-color: #347928;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tr:hover {
+    background-color: #d7e7d6;
+}
+
+/* Forms */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #347928;
+    box-shadow: 0 0 5px rgba(52, 121, 40, 0.5);
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    list-style: none;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination a {
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #347928;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+.pagination a:hover, .pagination .active a {
+    background-color: #347928;
+    color: white;
+}
+
+/* Success Messages */
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+/* Footer */
+.footer {
+    background-color: #347928;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer h2 {
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.footer h2 {
+    color: #e9ecef;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.container span a {
+    color:#347928;
+    text-decoration: none;
+}
+
+.table {
+    background: rgba(255, 255, 255, 0.8); 
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.btn-success {
+    background-color: #ffc107; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease; 
+    
+}
+
+.btn-success:active {
+    transform: scale(0.95); 
+    color: white; 
+    background-color: #347928; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.btn-success:hover {
+    background-color: #285f1e;
+    transform: scale(1.05); 
+    background-color: #347928; 
+     
+}
+
+.btn-warning, .btn-danger {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  .btn-warning, .btn-danger {
+    display: flex;
+    gap: 5px; 
+  }
+
+  .navbar .container .navbar-brand span {
+    color: #ffc107;
+  }
+
